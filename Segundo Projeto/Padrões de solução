@@ -1,0 +1,13 @@
+padrões de solução:
+
+classificação da urgência:
+-situação
+-histórico de doenças
+-faixa etaria(Criança/adulto/idoso)
+-Horário de chegada
+
+O resultado da urgencia do paciente vai dividir ele nos seguintes grupos: vermelho(urgente), amarelo(média), verde(baixa)
+
+O critério de desempate, caso aja mais de um paciente com o mesmo nivel de urgencia, será o horário de chegada
+
+O paciente de baixa prioridade(Verde) pode ficar até 1 hora esperando até ser atendido, o de prioridade média(Amarela) 30 minutos e o de alta prioridade(Vermelha) 10 minutos
